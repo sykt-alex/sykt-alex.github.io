@@ -1,0 +1,59 @@
+@font-face{
+	font-family: 'Web font';
+	src: url('../font/ChristmasReignDecoPersonal.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #634832;
+}
+p{
+	color: #38220f;
+	font-size: 32px;
+	font-family: 'RocknRoll One', sans-serif;
+}
+span{
+	background-color: #967259;
+	font-family: 'Web font';
+	font-size: 30px;
+}
+
+h1{ 
+	font-size: 50px;
+	color: #38220f; 
+}
+div{
+	width: 70%;
+	margin: auto;
+	background-color: #ece0d1;
+	padding: 50px;
+	box-shadow: 0 0 25px 3px rgba(0,0,0,0.2);
+}
+a {
+	text-decoration: none;
+	color: #967259;
+	font-size: 20px;
+	display: inline-block;
+	margin: 20px 0;
+	border-bottom: 2px solid transparent;
+	transition: 0.5s ease-in;
+}
+a:hover{
+	border-bottom-color: #38220f;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+li{
+	font-size: 32px;
+	color: #38220f;
+	margin-left: 60px;
+	font-family: 'RocknRoll One', sans-serif;
+}
